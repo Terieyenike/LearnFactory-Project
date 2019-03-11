@@ -7,3 +7,7 @@ Built pages for instagram demo page and dashboard for an e-commerce store.
 * HTML
 
 * CSS
+
+Link to the project
+
+[Instagram Demo Home Page](https://terieyenike.github.io/LearnFactory-Project/)
