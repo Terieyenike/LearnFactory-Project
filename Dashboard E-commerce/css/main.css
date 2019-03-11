@@ -1,0 +1,172 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+:root {
+  --sidebar: #960e0e;
+  --flex-top-bg: rgb(34, 33, 33);
+  --main-area-right-font-colour: #fff;
+  --borderline: #555555
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  flex: 0 0 200px;
+  height: 100vh;
+  background: var(--sidebar);
+}
+
+.inner-sidebar {
+  margin-top: 60px;
+}
+
+.item {
+  color: var(--main-area-right-font-colour);
+  font-size: .8rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner {
+  margin: 10px
+}
+
+.fa-plane-arrival {
+  margin: 10px;
+}
+.fa-angle-right{
+  margin: 10px
+}
+
+.fa-gofore{
+  margin: 10px
+}
+
+.fa-calendar-alt{
+  margin: 10px
+}
+
+.fas {
+  margin-right: 10px !important;
+}
+
+.fab {
+  margin-right: 10px
+}
+
+.item10 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4)
+}
+
+.phone{
+  margin-right: 20px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.inner-items{
+  display: flex;
+}
+
+
+.main-area {
+  flex-grow: 1;
+  height: 100vh;
+}
+
+.flex-top {
+  display: flex;
+  justify-content: space-between;
+  background: var(--flex-top-bg);
+}
+
+.main-area-right {
+  display: flex;
+  color: var(--main-area-right-font-colour);
+  align-items: center
+}
+
+.content {
+  margin-right: 5px;
+  margin-left: 30px;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+}
+
+
+.main-area-left{
+  color: var(--main-area-right-font-colour)
+}
+
+
+.img-item{
+  width: 80px;
+  height: 80px;
+  margin-left: 40px;
+}
+
+.item-details {
+  display: flex;
+  justify-content: space-between
+}
+
+.item-right {
+  display: flex;
+}
+
+
+.checkout {
+  display: flex;
+}
+
+.btn-it{
+  margin-right: 10px;
+}
+
+p.btn-it{
+  font-size: 0.7rem
+}
+
+.btncase {
+  border: 1px solid var(--borderline);
+  padding: 3px;
+}
+
+.btnbg {
+  background: var(--flex-top-bg);
+  color: var(--main-area-right-font-colour);
+  padding: 5px
+}
+
+.reg {
+  text-transform: uppercase;
+}
+
+.flex {
+  display: flex
+}
+
+.search-tips{
+  width: 90%
+}
+
